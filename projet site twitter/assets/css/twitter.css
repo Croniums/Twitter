@@ -1,0 +1,351 @@
+@media screen and (max-width: 1024px){
+    .affichgTel {
+        display: none;
+    }
+    .button {
+        margin-right: 50px;
+    }
+}
+body{
+    background-color: rgb(20, 20, 48);
+}
+.Homebutton {
+    background: none;
+    border: none;
+    color: white;
+}
+.Bodd {
+    color: white;
+}
+.Hov:hover {
+    color: rgb(61, 118, 192);
+    background-color: rgb(168, 167, 167, 0.1);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.Hov {
+    text-size-adjust: 500px ;
+}
+.Hove:hover {
+    background-color: rgb(168, 167, 167, 0.1);
+    border-radius: 50px;
+    width: 175px;
+    cursor: pointer;
+}
+.Bc {
+    background-color: rgb(74, 119, 216);
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+}
+.Bc:hover {
+    box-shadow: 0px 0px 5px 3px rgb(61, 96, 172);
+    cursor: pointer;
+}
+.ConfigG {
+    margin-left: 100px;
+    margin-bottom: 40px;
+
+}
+.ConfigC {
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.imageadjust {
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+.SideL {
+    top: 0px;
+    width: 500px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(158, 158, 158);
+}
+.bck:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(61, 118, 192);
+}
+.right, .left, .center {
+    border: 0px solid rgba(158, 158, 158, 0.5);
+    flex: 1;
+}
+.center {
+    border: 1px solid rgba(158, 158, 158, 0.5);
+}
+#container {
+    display: flex;
+    width: 100%;
+    border: 1px none red;
+    line-height: 0;
+    vertical-align: top;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.right, .center {
+    flex: 2;
+}
+.right {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+}
+.taille {
+    font-size: 21px;
+}
+.AccountProfile {
+    display: flex;
+}
+.marge {
+    margin-left: 20px;
+}
+.Searchbar {
+    margin-top: 20px;
+    margin: none;
+    width: 500px;
+    height: 25px;
+    border: 0;
+    background-color: rgb(43, 43, 61);
+    border-radius: 0px 25px 25px 0px;
+}
+.buttonsearch {
+    margin: 0;
+    margin-right: 0px;
+    border: none;
+    background-color: rgb(43, 43, 61);
+    height: 25px;
+    border-radius: 25px 0px 0px 25px;
+}
+.backgrdsearch {
+    height: 25px;
+    font-size: 70%;
+    border: 0;
+    background-color: rgb(43, 43, 61);
+}
+.seccenter {
+    border: 1px solid rgba(158, 158, 158, 0.5);
+}
+.brkhome {
+    background-color: rgba(169, 169, 169, 0.5); border: 1px solid rgba(192, 190, 190); height: 10px;
+}
+.home {
+    color: white; font-size: 25px; margin-left: 10px; height: 5px;
+}
+.Hovs:hover {
+    color: rgb(61, 118, 192);
+    background-color: rgb(168, 167, 167, 0.1);
+    border-radius: 75px;
+    cursor: pointer;
+}
+.icon  {
+    color: cornflowerblue; margin-left: 25px;
+}
+.icon:hover {
+    background-color: rgba(105, 186, 233, 0.349);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.twitbutton {
+    color: white;
+    border: 0;
+    background-color: rgb(46, 128, 236);
+    border-radius: 25px;
+    width: 75px;
+    height: 45px;
+    margin-left: 200px;
+}
+.left {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+}
+.retweet {
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 7px;
+    font-size: 20px;
+    color: rgb(156, 152, 152);
+}
+.textare {
+    color: gray;
+    background: none;
+    border: 0px solid gray;
+    border-radius: 5px;
+}
+.picture {
+    height: 250px;
+    width: 500px;
+    margin-left: 45px;
+    border-radius: 15px;
+}
+.texteedition {
+    color: cornflowerblue;
+    margin-left: 50px;
+}
+.texteedition:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.texteeditions:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.icontxt {
+    color: rgb(134, 134, 134);
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.icontxt2 {
+    color: darkolivegreen;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.icontxt3 {
+    color: red;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.downl {
+    font-size: 20px;
+    color: darkgray;
+    margin-left: 50px;
+}
+.sectionhover:hover {
+    background-color: rgba(101, 108, 116, 0.349);
+}
+.sectionhover {
+    border: 1px solid rgba(158, 158, 158, 0.5);
+}
+.divinfo {
+    border: 1px solid;
+    border-color: chartreuse;
+    height: 800px;
+    width: 500px;
+}
+.styck {
+    padding: 0;
+    margin: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(20, 20, 48);
+    border: 1px solid rgba(158, 158, 158, 0.5);
+    margin-bottom: 50px;
+    height: 75px;
+}
+.stycks {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+.info1 {
+    border: none;
+    background-color: rgba(167, 167, 167, 0.342);
+    height: 550px;
+    width: 450px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+.info1bis {
+    border: none;
+    background-color: rgba(167, 167, 167, 0.342);
+    height: 200px;
+    width: 450px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+.orgtxt {
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.texteinfo1 {
+    padding-top: 1px;
+    border: 1px solid rgba(158, 158, 158, 0.5);
+    border-radius: 25px 25px 0px 0px;
+}
+.textinf1 {
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+}
+.texteinfo2 {
+    padding-top: 1px;
+    border: 1px solid rgba(158, 158, 158, 0.5);
+    border-radius: 0px;
+}
+.texteinfo2s {
+    border: none;
+}
+.texteinfo2bis {
+    padding-top: 1px;
+    border: 1px solid rgba(158, 158, 158, 0.5);
+    border-radius: 0px 0px 25px 25px;
+    height: 50px;
+}
+.texteinfo2biss {
+    padding-top: 1px;
+    border: 1px solid rgba(158, 158, 158, 0.5);
+    border-radius: 0px 0px 25px 25px;
+    height: 50px;
+}
+.textinf2 {
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    margin-left: 25px;
+}
+.textinf1bis {
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.textinf1biss {
+    color: rgb(71, 132, 211);
+    font-size: 20px;
+    margin-left: 25px;
+}
+.textinf1biss:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.more {
+    margin-left: 250px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+.more:hover {
+    background-color: rgba(211, 211, 211, 0.315);
+    color: rgb(45, 129, 240);
+    border-radius: 25px;
+}
+.icontxt:hover, .icontxt2:hover, .icontxt3:hover {
+    cursor: pointer;
+    background-color: rgba(100, 148, 237, 0.39);
+    border-radius: 15px;
+}
+.followbutton {
+    font-size: 20px;
+    margin-left: 150px;
+    color: cornflowerblue;
+    background: none;
+    border: 3px solid cornflowerblue;
+    border-radius: 25px;
+}
+.followbutton:hover {
+    cursor: pointer;
+    background-color: rgba(100, 148, 237, 0.329);
+}
